@@ -26,7 +26,6 @@ BEGIN {
 
   #gnuplot command
   printf("set term 'windows'\n")
-  printf("set multiplot layout 1,2\n")
   printf("set size ratio -1\n")
   printf("set xrange [%f:%f]\n",1,max)
   printf("set yrange [%f:%f]\n",1,max)
