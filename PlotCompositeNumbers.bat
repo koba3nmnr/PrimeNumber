@@ -1,2 +1,2 @@
-gawk4 -f PlotCompositeNumbers.awk | gnuplot -persist
+gawk.exe -f PlotCompositeNumbers.awk | gnuplot.exe -persist
 :pause
