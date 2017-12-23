@@ -19,7 +19,6 @@ BEGIN {
   for(x=1;x<=max;x=x+2) {
     for(y=1;y<=(max)/x;y=y+2) {
       wx=x*y
-      cnt[wx]++
       if(Mwx<wx) Mwx=wx
       printf("%f,%f,%f,%d,%s\n",x,y, size, color,wx) > tmpB
     }
