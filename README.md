@@ -6,6 +6,6 @@ b) (N,1)と(1,N)を直線で結ぶ（Nは3以上の奇数）。
 b)の直線上に合成数が１点もなければ、Nは素数である。  
   
 ### 実行環境  
-OS:Windows  
-Windows版gawk.exe
-Windows版gnuplot.exe
+OS:Windows  
+Windows版gawk.exe  
+Windows版gnuplot.exe  
