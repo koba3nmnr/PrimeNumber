@@ -1,5 +1,6 @@
 YouTube
 https://youtu.be/PXCZ-C24w1U
+https://github.com/koba3nmnr/PrimeNumber/blob/master/PlotCompositeNumbers2.jpg
 
 ### 素数が見える  
 a) 両対数グラフの点(X,Y)に合成数X*Yをプロットする（X,Yは３以上の奇数）。  
