@@ -17,8 +17,7 @@ BEGIN {
   size=0.8
   color=255*2^16 #RED
   for(x=1;x<=max;x=x+2) {
-    for(y=1;y<=(max)/x;y=y+2) {
-      xy=x*y
+    for(y=1;(xy=x*y)<=max;y=y+2) {
       printf("%f,%f,%f,%d,%s\n",x,y, size, color,xy) > tmpB
     }
   }
