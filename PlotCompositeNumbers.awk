@@ -9,8 +9,8 @@ BEGIN {
   size=0
   color=255 #BLUE
   for(x=1;x<=max;x=x+2) {
-    printf("%f,%f,%f,%d\n",1,x, size, -1) > tmpA
-    printf("%f,%f,%f,%d\n",x,1, size, color) > tmpA
+    printf("%d,%d,%f,%d\n",1,x, size, -1) > tmpA
+    printf("%d,%d,%f,%d\n",x,1, size, color) > tmpA
   }
 
   #Composite numbers
@@ -18,7 +18,7 @@ BEGIN {
   color=255*2^16 #RED
   for(x=1;x<=max;x=x+2) {
     for(y=1;(xy=x*y)<=max;y=y+2) {
-      printf("%f,%f,%f,%d,%s\n",x,y, size, color,xy) > tmpB
+      printf("%d,%d,%f,%d,%d\n",x,y, size, color,xy) > tmpB
     }
   }
 
